@@ -45,8 +45,10 @@ export default function Header() {
             {navigation.map((item) => (
               <Link key={item.name} href={item.href}>
                 <a
-                  className={` text-white hover:font-black ${
-                    router.pathname == item.href ? "font-black" : "font-light"
+                  className={` text-white hover:font-medium ${
+                    router.pathname == item.href
+                      ? "font-semibold"
+                      : "font-light"
                   }`}
                 >
                   {item.name}
