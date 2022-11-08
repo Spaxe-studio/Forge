@@ -31,9 +31,9 @@ const people = [
 ];
 export default function Home() {
   return (
-    <main className="overflow-hidden relative flex flex-col items-center">
+    <main className="overflow-hidden flex flex-col items-center">
       {/* hero */}
-      <div className="relative flex items-center text-center justify-center min-h-[80vh] w-full hero-bg">
+      <div className=" flex items-center text-center justify-center min-h-[80vh] w-full hero-bg">
         <div className="flex flex-col items-center text-center justify-center ">
           <h1 className="text-center font-extrabold uppercase text-8xl sm:text-9xl">
             FORGE

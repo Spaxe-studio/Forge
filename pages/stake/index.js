@@ -185,8 +185,8 @@ export default function Example() {
       }
       unstake({
         onError: (error) => {
-          setStakeAmount(0)
-          setRange(0)
+          setStakeAmount(0);
+          setRange(0);
         },
         onSuccess: handleUnstakeSuccess,
       });
@@ -228,8 +228,8 @@ export default function Example() {
       position: "topR",
     });
     updateUI();
-    setStakeAmount(0)
-    setRange(0)
+    setStakeAmount(0);
+    setRange(0);
   };
 
   const handleUnstakeSuccess = async (tx) => {
@@ -241,8 +241,8 @@ export default function Example() {
       position: "topR",
     });
     updateUI();
-    setStakeAmount(0)
-    setRange(0)
+    setStakeAmount(0);
+    setRange(0);
   };
   /**
    * Update UI:
@@ -260,8 +260,8 @@ export default function Example() {
   }, [isWeb3Enabled, account, poolId]);
 
   return (
-    <div className="relative overflow-hidden">
-      <div className="relative pt-6 pb-16 sm:pb-24">
+    <div className=" overflow-hidden">
+      <div className=" pt-6 pb-16 sm:pb-24">
         <div className="mx-auto max-w-7xl">
           <div className="lg:grid lg:grid-cols-12 lg:gap-8 items-start">
             <div className="px-4 pt-10 md:pt-24 sm:px-6 sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6 lg:flex lg:items-center lg:text-left">

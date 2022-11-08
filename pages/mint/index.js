@@ -17,8 +17,8 @@ import Image from "next/image";
 
 export default function mint() {
   return (
-    <div className="relative overflow-hidden">
-      <div className="relative pt-6 pb-16 sm:pb-24">
+    <div className="overflow-hidden">
+      <div className="pt-6 pb-16 sm:pb-24">
         <div className="mx-auto max-w-7xl">
           <div className="lg:grid lg:grid-cols-12 lg:gap-8 items-start">
             <div className="px-4 pt-10 md:pt-24 sm:px-6 sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6 lg:flex lg:items-center lg:text-left">
@@ -40,14 +40,12 @@ export default function mint() {
                       onSubmit={(e) => {}}
                       className="space-y-3"
                     >
-                      <div>
-                        <Image
-                          src="https://images.unsplash.com/photo-1666730501852-189f6139d518?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
-                          alt="pre-mint nft"
-                          width="1080px"
-                          height="1080px"
-                        />
-                      </div>
+                      <Image
+                        src="https://images.unsplash.com/photo-1666730501852-189f6139d518?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                        alt="pre-mint nft"
+                        width="1080px"
+                        height="1080px"
+                      />
 
                       <div className="px-4 py-6 space-y-6 sm:px-6">
                         <h4 className=" mb-4 font-medium text-white">
