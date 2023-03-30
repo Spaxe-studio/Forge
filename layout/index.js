@@ -1,13 +1,12 @@
-import Head from "next/head";
 import React from "react";
-import Footer from "../components/footer";
-import Header from "../components/header";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 export default function Layout({ children }) {
   return (
-    <div className="bg-home">
+    <div className="relative">
       <Header />
-      <main className="grow">{children}</main>
+      <main>{children}</main>
       <Footer />
     </div>
   );
